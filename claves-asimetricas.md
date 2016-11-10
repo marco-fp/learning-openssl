@@ -1,14 +1,30 @@
 # Ejercicios de claves asimétricas
 
 * Contraseña utilizada: `0123456789`
+* Para generar par de claves: `openssl genrsa`
+* Para extraer claves, manipularlas y/o cifrarlas: `openssl rsa`
+* Para descifrar, cifrar, firmar y verificar con las claves dadas: `openssl rsault`
+* Para generar y manipular parámetros asociados a curvas elípticas y parejas de claves: `openssl ecparam`
+* Para extraer y/o manipular claves a partir de curvas elípticas: `openssl ec`
+* Para generar claves aleatorias de sesión: `openssl rand`
+
+* Usas flags `--text` y `--noout` para visualizar salida de claves.
 
 ## Tareas a realizar
 
 #### 1. Generar dos pares de claves RSA de 1024 bits. No protegida por contraseña.
 
+![Generacion pares de claves](./imagenes/1-asimetrica.png)
+
 #### 2. Extraer la clave privada contenida en en cada uno de los pares, a otro archivo protegido por contraseña cifrándolo con AES-128. Mostrar sus valores.
 
+![Extraccion claves privadas](./imagenes/2-asimetrica.png)
+
+![Extraccion claves privadas](./imagenes/2-1-asimetrica.png)
+
 #### 3. Extraer la clave publica de cada uno de los pares. No debe estar cifrada ni protegida. Mostrar sus valores.
+
+![Extraccion claves publicas](./imagenes/3-asimetrica.png)
 
 #### 4. Reutilizar el archivo input.bin de 1024 bits, todos a 0, cifrandolo con las claves publicas y explicar el resultado.
 
