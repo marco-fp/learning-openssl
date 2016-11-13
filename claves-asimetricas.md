@@ -86,8 +86,29 @@ Vemos que los archivos coinciden, tanto la clave simetrica como el archivo cifra
 
 #### 7. Generar un archivo que contenga los parámetros públicos de una de las curvas elípticas contenidas en las transparencias de teoría. Si no se logran localizar hacer el resto de ejercicios con una curva cualquiera de las disponibles en OpenSSL. Mostrar los valores.
 
+Con la orden `openssl ecparam -list_curves` vemos la lista de curvas disponibles en OpenSSL. Para generar una de ellas utilizamos la orden `openssl ecparam -name <nombreCurva> -out <ficheroSalida>.pem`.  
+Para examinar en detalle los parámetros asociados a la curva:  
+`openssl ecparam -in <ficheroCurva>.pem -text -param_enc explicit -noout`  
+
+![Curva elíptica](./imagenes/7-asimetrica.png)
+
 #### 8. Generar dos pares de claves para los parámetros anteriores. No protegidas por contraseña.
+
+Para generar los pares de claves utilizaremos la siguiente orden:   
+`openssl ecparam -in <ficheroCurva>.pem -genkey -noout -out <ficheroClaves>.pem`  
+
+Las captura de su ejecución se muestra en el siguiente ejercicio.
 
 #### 9. Extraer la clave privada contenida en el archivo  de cada clave, protegido por contraseña cifrandolo con 3DES. Mostrar sus valores.
 
+  * Generación de pares y claves privadas cifradas con DES3:  
+  ![Curva elíptica](./imagenes/8-asimetrica.png)
+
+  * Contenido claves privadas:  
+  ![Curva elíptica](./imagenes/8-1-asimetrica.png)
+
+
 #### 10. Extraer la clave pública contenida en el archivo de cada clave, sin protegerlo con contraseña.
+Orden: `openssl ec -in <parClavesCurva>.pem -out <clavePublicaCurva>.pem -pubout`
+
+![Curva elíptica](./imagenes/10-asimetrica.png)
