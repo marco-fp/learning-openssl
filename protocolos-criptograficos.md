@@ -4,7 +4,7 @@
 
 # Tareas a realizar
 
-## 1\. Generad un archivo sharedDSA.pem que contenga los parametros. Mostrad los valores.
+## 1\. Generad un archivo sharedDSA.pem que contenga los parámetros. Mostrad los valores.
 
 Orden ejecutada: `openssl dsaparam -out sharedDSA.pem 1024`  
 
