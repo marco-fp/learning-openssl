@@ -1,0 +1,45 @@
+Certificate Request:
+    Data:
+        Version: 0 (0x0)
+        Subject: C=ES, ST=Granada, L=Granada, O=SPSI, OU=Practicas, CN=Marco/emailAddress=marco@spsi.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:bc:41:38:e3:d5:40:17:93:bf:68:f6:d5:79:94:
+                    63:05:d4:6e:42:76:fd:69:31:f0:93:c9:07:be:70:
+                    a2:49:30:29:89:b5:87:c7:8d:ad:25:be:8c:fe:75:
+                    cc:da:ae:c6:32:8a:09:51:92:fd:e5:27:30:27:90:
+                    00:28:7d:b1:82:a2:37:59:be:12:9b:95:0b:4e:98:
+                    ee:a4:1b:13:58:98:b9:d2:19:aa:4e:fb:9b:33:7d:
+                    20:cc:1c:b9:6c:85:0d:b7:89:23:2a:5e:6b:e9:5b:
+                    85:03:23:d6:8b:50:84:9b:df:57:d7:07:a9:f0:3d:
+                    ee:d0:79:d6:7f:9b:13:23:68:de:9d:4a:b8:58:5e:
+                    db:3a:93:98:22:97:63:6d:20:eb:ca:e3:27:32:d0:
+                    b9:c6:ae:9b:8e:66:81:be:af:10:70:f4:a8:68:1c:
+                    bb:41:52:3e:16:20:ca:80:86:28:c4:3a:5d:a7:50:
+                    eb:76:d3:52:48:a5:8c:fc:e5:9c:aa:f4:8a:9c:2f:
+                    8d:1b:6d:3d:b8:c4:61:ca:15:46:80:0e:5d:70:b1:
+                    57:5a:7d:a5:6d:61:5d:6d:c3:94:b4:b2:42:e0:8a:
+                    71:55:59:26:2f:82:3a:15:d3:b9:49:09:24:a3:60:
+                    30:f3:ec:f4:f3:b7:e5:b2:16:03:f2:b8:84:bd:b8:
+                    9e:a3
+                Exponent: 65537 (0x10001)
+        Attributes:
+            a0:00
+    Signature Algorithm: sha256WithRSAEncryption
+         31:b3:30:37:40:59:8b:9d:0a:50:74:60:98:eb:c0:6c:ac:66:
+         99:2a:40:c8:68:39:63:90:0d:52:d4:40:05:de:66:95:f9:de:
+         a8:66:7c:3b:0e:c7:7c:22:cc:6e:d8:03:09:ca:82:dc:80:85:
+         4d:75:dc:48:85:a7:c5:24:66:bc:4b:64:11:95:20:f7:20:df:
+         28:44:a1:4b:b7:14:60:88:01:ff:f7:73:bf:1c:f7:c2:3d:e9:
+         9f:aa:01:28:21:fa:4d:b4:35:15:79:31:e2:c2:90:30:f6:3f:
+         46:c2:fa:82:33:df:87:13:56:d8:b8:64:37:e7:ec:79:fd:56:
+         cb:2f:40:d9:60:b2:c0:78:cb:34:66:04:1f:5a:89:c1:53:14:
+         b7:69:e8:9d:bc:f9:d1:3d:b1:d5:95:a2:74:17:47:7e:05:db:
+         a0:de:18:ba:27:df:0a:ea:1d:3b:9a:ff:77:81:1a:f9:39:4d:
+         d8:d1:af:88:7e:f7:d5:21:06:75:34:2c:f9:71:3e:86:7d:b9:
+         ba:e8:1f:d5:12:c3:f4:07:92:ae:00:09:d5:67:39:93:1d:ec:
+         05:61:d9:64:52:1e:f6:38:40:22:16:32:39:6b:15:e2:09:c1:
+         e5:7a:2b:44:60:8c:9c:12:bd:70:08:44:4e:88:73:43:14:fa:
+         08:03:d9:d3

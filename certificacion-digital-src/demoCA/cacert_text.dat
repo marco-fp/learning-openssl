@@ -1,0 +1,57 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 10396756616410332561 (0x9048b30ee9547d91)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=ES, ST=Granada, O=SPSI, OU=Practicas, CN=Marco/emailAddress=marco@spsi.com
+        Validity
+            Not Before: Dec 20 16:55:58 2016 GMT
+            Not After : Dec 20 16:55:58 2019 GMT
+        Subject: C=ES, ST=Granada, O=SPSI, OU=Practicas, CN=Marco/emailAddress=marco@spsi.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c0:66:ac:20:ca:20:46:ca:ce:42:24:eb:ec:cf:
+                    82:de:d1:7c:72:ae:9c:85:d3:47:39:3a:2a:9d:e3:
+                    1e:70:ea:62:f0:95:09:ae:e8:c5:88:cc:1b:31:bb:
+                    e5:40:0c:7f:3b:c9:42:44:91:8d:6f:1f:f4:dd:ce:
+                    21:2e:d7:f6:72:f6:43:18:9f:56:c8:0e:71:c7:f5:
+                    76:7e:18:d0:fb:4d:b3:8a:9b:9b:1b:ce:ea:73:25:
+                    a5:5f:2f:4e:ce:3d:e2:a8:8a:d9:6c:cd:ee:9a:4d:
+                    c7:62:52:2f:1e:4b:08:65:f3:27:38:7f:ef:7c:ea:
+                    47:2e:a5:24:a3:67:de:19:7d:c4:d3:0a:8d:24:93:
+                    66:5e:30:e0:e3:07:ff:e4:9f:87:94:c0:6b:e4:cd:
+                    b8:0b:b7:c5:a8:fe:ed:d7:13:11:42:d1:62:79:0f:
+                    20:d6:6a:28:0b:a9:d7:34:23:9f:cc:dc:6a:8e:50:
+                    79:11:3d:94:92:aa:b3:60:1e:f5:21:64:24:44:8f:
+                    48:f4:ef:33:a5:ec:6c:f0:7c:ba:39:33:0f:4f:db:
+                    76:e2:f2:f0:f0:45:18:7f:c8:4a:51:3b:1a:05:59:
+                    c1:34:9f:fa:b4:1c:65:0a:de:ed:35:20:45:f3:97:
+                    34:b0:84:e1:d2:96:4d:2f:72:5d:78:7b:1c:84:62:
+                    65:ef
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                9F:6D:7F:06:19:1D:86:AA:F8:CE:49:84:75:57:3F:F9:EB:BB:F6:14
+            X509v3 Authority Key Identifier: 
+                keyid:9F:6D:7F:06:19:1D:86:AA:F8:CE:49:84:75:57:3F:F9:EB:BB:F6:14
+
+            X509v3 Basic Constraints: 
+                CA:TRUE
+    Signature Algorithm: sha256WithRSAEncryption
+         a7:8e:9d:e9:33:70:c0:d1:7c:0b:a8:0c:9b:74:cc:e0:63:c6:
+         61:53:71:fc:21:5d:ea:53:4a:5b:0b:65:bf:30:81:d0:e0:0c:
+         3f:ca:1a:44:a1:64:a7:80:be:25:fe:f3:ad:b8:5d:e3:58:1a:
+         66:f3:d0:d1:3a:2e:a1:4a:66:8b:58:e6:7d:f2:65:e9:5a:f1:
+         f7:93:f0:48:33:27:03:92:4d:92:7f:8c:33:99:cd:01:83:dc:
+         34:db:64:58:41:25:5e:5d:87:fb:5c:8b:1e:31:9e:e8:4f:e2:
+         49:56:fb:96:a2:7a:dc:c4:05:f9:20:d6:33:c9:86:89:55:a5:
+         57:32:f9:c6:1f:bf:0e:f4:97:2c:2d:10:1c:57:56:a8:e7:2b:
+         c7:d1:a0:c8:94:d7:68:e6:d1:e3:3c:87:33:a2:0a:f1:db:20:
+         6d:ff:86:22:9e:fd:ee:3f:74:de:49:0e:aa:a9:ba:9f:83:89:
+         fb:8b:d3:b6:5f:2e:96:68:58:cf:7f:1d:d3:81:b4:9e:50:39:
+         e7:03:4e:30:92:f9:4c:fb:21:bc:17:14:88:ae:23:62:ad:bb:
+         58:29:b5:8f:69:1f:bb:eb:0d:60:aa:85:c2:d8:68:13:d3:6d:
+         70:bc:eb:d2:b8:9b:dd:b6:06:b8:63:7d:55:93:be:97:41:98:
+         11:e1:0a:57

@@ -7,3 +7,5 @@ Repositorio de ejercicios relacionados con el uso de OpenSSL, generación de cla
 #### 2. [Claves asimetricas](./claves-asimetricas.md)
 
 #### 3. [Protoclos criptográficos](./protocolos-criptograficos.md)
+
+#### 4. [Certificación digital](./certificacion-digital.md)
